@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__filePicker::file-selector-button {
+    margin-right: 10px;
+    width: 125px;
+}
+
+.form__textArea {
+    padding: 10px;
+    outline: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form__textArea:focus {
+    outline: 2px solid #306cb7;
+}
+
+.form__textArea_error, .form__textArea_error:focus {
+    outline: 2px solid #b73030;
+}
+
+.descField {
+    height: 200px;
+    resize: none;
+    margin: 0 !important;
+}
+
+.form__filePicker, .form__textArea {
+    margin-bottom: 10px;
+}

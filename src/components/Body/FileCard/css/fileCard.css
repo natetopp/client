@@ -1,0 +1,51 @@
+.fileCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 20px 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.fileCard:hover {
+    cursor: pointer;
+}
+
+.fileCard__fileInfo {
+    display: flex;
+}
+
+.fileCard__fileIcon {
+    margin: 0 15px 0 0;
+}
+
+.fileCard__fileData {
+    display: flex;
+    flex-direction: column;
+    line-height: 17px;
+}
+
+.fileCard__fileName {
+    margin: 0 0 7px 0;
+    font-weight: 800;
+}
+
+.fileCard__fileDesc {
+    display: flex;
+    
+}
+
+.fileCard__fileActions {
+    display: flex;
+    gap: 10px;
+}
+
+.fileCard__fileName, .fileCard__fileDesc {
+    cursor: text;
+}
+
+.fileCard__fileIcon, .fileCard__fileActions {
+    display: flex;
+    align-items: center;
+}

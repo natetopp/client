@@ -1,0 +1,36 @@
+.navBar{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navBar__content {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 960px;
+    padding: 15px 0;
+    margin: 0px 20px;
+}
+
+.navBar__logoText{
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navBar__buttons, .navBar__sessionBlock {
+    display: flex;
+    gap: 10px;
+}
+
+.navBar__username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

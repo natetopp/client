@@ -1,0 +1,94 @@
+.primaryButton, .redButton, .secondaryButton, input::file-selector-button {
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	width: 90px;
+}
+
+.primaryButton, .redButton {
+	color: #fff;
+}
+
+.primaryButton {
+	background-color: #306cb7;
+}
+
+.primaryButton:hover {
+	background-color: #255590;
+}
+
+.primaryButton:active {
+	background-color: #1d416d;
+}
+
+.redButton {
+	background-color: #b73030;
+}
+
+.redButton:hover {
+	background-color: #952929;
+}
+
+.redButton:active {
+	background-color: #7a2222;
+}
+
+.secondaryButton, input::file-selector-button {
+	background-color: #ededed;
+}
+
+.secondaryButton:hover, input::file-selector-button:hover {
+  	background-color: #dedede;
+}
+
+.secondaryButton:active, input::file-selector-button:active {
+	background-color: #cacaca;
+}
+
+input::file-selector-button:hover {
+	cursor: pointer;
+}
+
+.iconButtonBlue, .iconButtonRed, .iconButtonGreen {
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.iconButtonBlue {
+	color: #306cb7;
+}
+
+.iconButtonBlue:hover {
+    background-color: #cfe6ff;
+}
+
+.iconButtonBlue:active {
+    background-color: #a8d2ff;
+}
+
+.iconButtonRed {
+	color: #b73030;
+}
+
+.iconButtonRed:hover {
+    background-color: #ffcfcf;
+}
+
+.iconButtonRed:active {
+    background-color: #ffadad;
+}
+
+.iconButtonGreen {
+	color: #00821c;
+}
+
+.iconButtonGreen:hover {
+    background-color: #bfffcd;
+}
+
+.iconButtonGreen:active {
+    background-color: #81e697;
+}
